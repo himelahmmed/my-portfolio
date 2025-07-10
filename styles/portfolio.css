@@ -1,4 +1,4 @@
-
+/*body style*/
 .open-sans-normal> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -16,7 +16,10 @@
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    height: 600px;
+    background-position:left top, bottom right;
+    background-size: 80px 550px, 600px 280px;
+
 }
 
 
@@ -31,7 +34,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
-    margin-left: 203px;
+    margin-left: 150px;
 }
 
 nav ul{
@@ -57,17 +60,18 @@ nav ul li a{
     color: #757575;
 }
 
-/*banner style*/
+/*banner design*/
 
 .banner{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
+    height: 300;
+
 }
 
 .banner-content{
-    width: 585px;
-    height: 356px;
-    margin: 0px 35px 0px 207px;
+    margin-left: 200px;
 }
 
 .banner-greetings{
@@ -77,15 +81,15 @@ nav ul li a{
 
 .banner-title{
     font-weight: bold;
-    font-size: 85px;
+    font-size: 50px;
 }
 
 .banner-description{
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .banner-profile-img{
-
+    margin-top: 63px;
 }
 
 .btn-primary{
@@ -96,5 +100,5 @@ nav ul li a{
     padding: 18px 35px 19px 36px;
     border-radius: 5px;
     border: none;
-    margin-right: 256px;
+    
 }
