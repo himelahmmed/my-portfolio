@@ -8,8 +8,34 @@
 }
 
 /*shared style*/
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
+}
+
 .text-primary{
     color: #FD6E0A;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+
+.section-description{
+    font-size: 18px;
+
 }
 
 /*header style*/
@@ -50,14 +76,6 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
-}
-
-.dark-2{
-    color: #474747;
-}
-
-.dark-3{
-    color: #757575;
 }
 
 /*banner design*/
@@ -102,3 +120,27 @@ nav ul li a{
     border: none;
     
 }
+
+/*main styles*/
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*About Styles*/
+.about{
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.about-details{
+    padding: 50px 173px 0px 230px;
+}
+
